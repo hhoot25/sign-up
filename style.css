@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    font-size:40px;
 }
 /*https://pixabay.com/photos/orange-fruit-food-organic-sweet-6518675/ */
 body{
@@ -47,14 +48,36 @@ body{
     
 }
 #top{
+    
     background-color:rgb(241, 239, 239);
     flex:1;
-    box-shadow: 10px 10px;
+    
+}
+.top-text{
+    font-size:200px;
+    margin: 10rem 30rem 10rem 10rem;
+    
 }
 #mid{
+    position:relative;
     background-color:white;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
     flex:.9
+}
+#mid-heading{
+    font-size:100px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+}
+.form-row{
+    display:flex;
+}
+
+.form-row input{
+    width:600px;
+    height:200px;
 }
 #bot{
     background-color:rgb(241, 239, 239);
