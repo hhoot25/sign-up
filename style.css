@@ -128,5 +128,12 @@ input{
     align-items:center;
     height:300px;
     width:30rem;
+    margin-bottom:5rem;
     border-radius:200px;
+}
+#create-text{
+    font-size:100px;
+}
+#login{
+    color:#d18903;
 }
