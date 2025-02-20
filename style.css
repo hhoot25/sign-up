@@ -106,9 +106,11 @@ form{
 
 }
 input{
+    border-style:solid;
     color:black;
     padding: 5px 100px 5px;
     font-size:250px;
+    border-width:20px;
 }
 #bot{
     display:flex;
@@ -135,4 +137,13 @@ input{
 }
 #login{
     color:#d18903;
+}
+input:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color:green;
+}
+input:focus{
+    border-color:blue;
 }
